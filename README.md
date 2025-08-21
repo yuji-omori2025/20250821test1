@@ -269,3 +269,31 @@ url:・・・・・・・・・・・・・・・・・・・・・・後でurl�
     </body>
     
 </html>
+header{
+padding:10px 40px;
+dispry:flex;
+align-items:center;
+justify-content:space-between;
+.logo{
+dispry:block;
+img{
+dispry:block;
+height:60px;
+}
+}
+nav{
+ul{
+dispry:flex;
+align-items: center;
+gap:50px;
+}
+a{
+font-size: 14px;
+font-weight:400;
+&:hover{
+color:blue;
+text-decoration:underline;
+}
+}
+}
+}
